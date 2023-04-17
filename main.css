@@ -1,0 +1,43 @@
+#header{ /*оформление для id*/
+    width: 1215px; /* ширина шапки*/
+    height: 250px; /*высота шапки*/
+    background-color: #bddcf0; /*цвет фона */
+    margin-bottom: 10px; /*внешник отступ снизу*/
+    background-image: url(fon.jpg) /*сама картигнка шапки профиля*/
+  }
+body { /*оформление для тега body*/
+    background: #bddcf0; /* цвет фона*/
+}
+.f { /*оформление класса */
+    padding: 5px; /*отступ*/
+    background: #a7d0ec; /*цвет фона*/
+    font-size: 20px; /*размер шрифта*/
+    border-style: solid ; /*стиль таблицы*/
+}
+.f a { /*оформление тега a класса f */
+    text-decoration: none; /*убираем подчеркивание текста*/
+    color:black;
+}
+a {
+    text-decoration: none; 
+    color:blue; 
+}
+.p {
+    font-size: 20px; 
+    padding: 10px;
+    background: #9acef1; 
+    border-style: double; 
+}
+h1 {
+    border-style: double;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul {
+    background: #98cdf0;
+    font-size: 16px;
+}
+.pic{
+    display: inline-block; 
+}
